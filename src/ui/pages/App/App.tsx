@@ -4,11 +4,6 @@ import reactLogo from 'src/res/img/react.svg'
 import PwaLogo from 'src/res/img/PWA-logo.svg?react'
 import tsLogo from 'src/res/img/Typescript-logo.png'
 import 'src/ui/pages/App/App.css'
-import SetStateTest1 from 'src/ui/components/set-state-test/SetStateTest1';
-import SetStateTest2 from 'src/ui/components/set-state-test/SetStateTest2';
-import SetStateTest3 from 'src/ui/components/set-state-test/SetStateTest3';
-import UseEffectTest from 'src/ui/components/use-effect-test/UseEffectTest';
-import UseEffectTestContainer from 'src/ui/components/use-effect-test/UseEffectTestContainer';
 
 
 
@@ -67,14 +62,6 @@ function App(){
         </p>
       </div>
       <p className='read-the-docs'>Click on the Vite and React logos to learn more</p>
-      
-      
-      <SetStateTest1/>
-      <SetStateTest2/>
-      <SetStateTest3/>
-      
-      <UseEffectTestContainer/>
-      
     </>
   )
 }
